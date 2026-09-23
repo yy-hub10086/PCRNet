@@ -312,8 +312,7 @@ def main(args, config):
             val_glb_result = itm_eval(score_val_glb,val_loader.dataset.txt2img,val_loader.dataset.img2txt,
                                       val_loader.dataset.img2pid,val_loader.dataset.txt2pid)
             print("test",test_result)
-            print("val",val_result)
-            print("glb",val_glb_result)
+           
 
 
 
